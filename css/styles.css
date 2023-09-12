@@ -11009,11 +11009,29 @@ section.resume-section .resume-section-content {
   font-size: 1.1em; /* Increased font size */
 }
 
+.project {
+  display: flex;
+  align-items: center; /* This will vertically center the image and description */
+  margin-bottom: 20px; /* Space between each image-description pair */
+}
 
 .project-image {
-  max-width: 300px; /* Adjust this value as needed */
+  width: 300px; /* Fixed width for the image */
   height: auto;
-  display: block;
+  margin-right: 20px; /* Space between the image and its description */
+}
+
+.project-category-title {
+  font-size: 1.5em;
+  color: orange; /* To match your website's theme */
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid orange; /* Optional: Adds a line below the category title */
+  padding-bottom: 10px;
+}
+
+.description {
+  flex-grow: 1; /* This will allow the description to take up the remaining space */
 }
 
 .image-container {
