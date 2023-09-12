@@ -10983,3 +10983,44 @@ section.resume-section .resume-section-content {
   margin-bottom: 5px; /* Adjust as needed */
 }
 
+.awards-section {
+  border-left: 3px solid orange; /* Updated to orange */
+  padding-left: 15px;
+}
+
+.award-item {
+  margin-bottom: 35px; /* Slightly increased spacing for better readability */
+}
+
+.award-title {
+  font-weight: bold;
+  font-size: 2em; /* Increased font size */
+  color: black; /* Title color set to orange */
+}
+
+.award-date {
+  font-style: italic;
+  color: #b57500; /* Darker shade of orange for contrast */
+  font-size: 1.1em; /* Increased font size */
+}
+
+.award-description {
+  margin-top: 12px; /* Slightly increased spacing */
+  font-size: 1.1em; /* Increased font size */
+}
+
+
+.project-image {
+  max-width: 300px; /* Adjust this value as needed */
+  height: auto;
+  display: block;
+}
+
+.image-container {
+  display: flex;
+  justify-content: left; /* This will center the images horizontally */
+  align-items: center; /* This will center the images vertically */
+  gap: 20px; /* Space between the two images */
+}
+
+
