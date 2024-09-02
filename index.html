@@ -1,140 +1,387 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Website of Jiwon Kim</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <style>
-        /* Custom Styles */
-        h3 {
-            font-size: 1.75rem; /* Adjust the size as needed */
-            color: #333; /* Dark color for headings */
-        }
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Website of Jiwon Kim</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Tae Young Yeon</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile_image.jpeg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work-in-progress">Work In Progress</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
 
-        /* Adding padding to center content better */
-        .resume-section-content {
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        .projects-title-small {
-            font-size: 0.8em; /* Smaller font size for subtitle */
-            color: #666; /* Gray color for subtitle */
-        }
-
-        .subheading {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #555;
-        }
-    </style>
-</head>
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Tae Young Yeon</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile_image.jpeg" alt="..." /></span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work-in-progress">Work In Progress</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
                 <div class="row align-items-start"> <!-- align-items-start ensures content starts at the top of the container -->
+                    
                     <!-- Left side with name, contact, and introduction -->
                     <div class="col-md-12">
-                        <h1 class="mb-0">Jiwon <span class="text-primary">Kim</span></h1>
+                        <h1 class="mb-0">
+                            Jiwon
+                            <span class="text-primary">Kim</span>
+                        </h1>
+                        
                         <div class="subheading mb-5">
                             +82 (10) 8415-0365
                             <a href="mailto:jiwon.kim1823@gmail.com">jiwon.kim1823@gmail.com</a>
                         </div>
+            
                         <p class="lead mb-5" style="text-align: justify;">
                             Hello! I am Jiwon Kim, a Master's student in accounting at Seoul National University, currently preparing for Ph.D. admissions. I am working on a paper that examines the impact of firms' CSR disclosures on employee responses, utilizing data from platforms like Glassdoor. I am interested in financial and managerial accounting, with a particular focus recently on text mining of corporate reporting, including CSR, ESG greenwashing, and litigation impacts.
                         </p>
+            
                         <div class="social-icons">
+                            <!-- <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a> -->
                             <a class="social-icon" href="https://github.com/diffzerg">
                                 <div class="icon-container">
                                     <span class="icon-label">GitHub</span>
                                     <i class="fab fa-github"></i>
                                 </div>
                             </a>
+                            
                             <a class="social-icon" href="assets/file/cv.pdf" download>
                                 <div class="icon-container">
                                     <span class="icon-label">CV</span>
                                     <i class="fas fa-file-download"></i>
                                 </div>
                             </a>
+                            
+                            <!-- <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a> -->
                         </div>
                     </div>
+            
+                 
                 </div>
             </div>                
-        </section>
-        <hr class="m-0" />
-        <section class="resume-section" id="work-in-progress">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Work In Progress</h2>
-                <!-- Thesis paper -->
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Title</h3>
-                        <div class="subheading mb-3">
-                            Advised by <a href="https://scholar.google.com/citations?user=m1keZf0AAAAJ&hl=ko&oi=ao" target="_blank">Professor Yong Gyu Lee</a>
-                        </div>
-                        <h3 class="mb-0">Abstract of the Paper</h3> <!-- Changed to h3 to match size -->
-                        <p class="mt-3">
-                            content:
-                        </p>
-                        <h3 class="mb-0">Related Skills</h3> <!-- Changed to h3 to match size -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <section class="resume-section" id="projects">
-            <div class="resume-section-content">
-                <h2 class="mb-5">
-                    Projects 
-                    <span class="projects-title-small">(research proposals from master’s course seminars)</span>
-                </h2>
-                <!-- Studies in Tax Accounting -->
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Controlling Shareholders’ Tax Burden and Corporate Transparency</h3>
-                        <div class="subheading mb-3">Research Proposal for the 'Studies in Tax Accounting' seminar, Seoul National University</div>
-                        <p>This proposal, including hypotheses and basic research design, suggests that the tax burden on controlling shareholders of Korean chaebol firms (large conglomerates) can affect earnings management, the opacity of financial reporting, and the analyst information environment. It aims to use inheritance events in these firms to investigate whether personal tax burdens can obscure transparency.</p>
-                        <a class="social-icon" href="assets/file/Controlling Shareholders’ Tax Burden and Corporate Transparency_JW.KIM.pdf" download>
-                            <div class="icon-container">
-                                <span class="icon-label">Download Research Proposal</span>
-                                <i class="fas fa-file-download"></i>
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="work-in-progress">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Work In Progress</h2>
+            
+                    <!-- Thesis paper -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Title</h3>
+                            <div class="subheading mb-3">
+                                Advised by <a href="https://scholar.google.com/citations?user=m1keZf0AAAAJ&hl=ko&oi=ao" target="_blank">Professor Yong Gyu Lee</a>
                             </div>
-                        </a>
+                            
+                            <h3 class="mb-0">Abstract of the Paper</h3> <!-- Changed to h3 to match size -->
+                            <p class="mt-3">
+                                content:
+                            </p>
+                            
+                            <h3 class="mb-0">Related Skills</h3> <!-- Changed to h3 to match size -->
+                            <!-- You can add related skills content here if needed -->
+                        </div>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">2024</span></div>
+                    
+                   
+ 
+
+            
+                 
+            
+            <hr class="m-0" />
+            <!-- Projects (Other research ideas of research proporsal)-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">
+                        Projects 
+                        <span style="font-size: 0.6em; color: #666;">(research proposals from master’s course seminars)</span>
+                    </h2>
+
+                   
+                    <!-- Studies in Tax Accounting -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Controlling Shareholders’ Tax Burden and Corporate Transparency</h3>
+                            <div class="subheading mb-3">Research Proposal for the 'Studies in Tax Accounting' seminar, Seoul National University</div>
+                            <p>This proposal, including hypotheses and basic research design, suggests that the tax burden on controlling shareholders of Korean chaebol firms (large conglomerates) can affect earnings management, the opacity of financial reporting, and the analyst information environment. It aims to use inheritance events in these firms to investigate whether personal tax burdens can obscure transparency.
+                            
+                             <!-- Download link for the research proposal -->
+                             <a class="social-icon" href="assets/file/Controlling Shareholders’ Tax Burden and Corporate Transparency_JW.KIM.pdf" download>
+                                <div class="icon-container">
+                                    <span class="icon-label">Download Research Proposal</span>
+                                    <i class="fas fa-file-download"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2024</span></div>
+                    </div>
+
+                                <!-- Accounting Modeling and Analysis -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Accounting Conservatism in R&D Investment</h3>
+                            <div class="subheading mb-3">Research Proposal for the 'Accounting Modeling and Analysis' seminar, Seoul National University</div>
+                            <p>This proposal, including hypotheses and basic research design, extends the Laux and Ray (2020) model to explore how managerial risk-taking incentives (vega) and accounting conservatism together influence R&D investment and innovation quality.</p>
+                            
+                            <!-- Download link for the research proposal -->
+                            <a class="social-icon" href="assets/file/Accounting Conservatism in R&D Investment_JW.KIM.pdf" download>
+                                <div class="icon-container">
+                                    <span class="icon-label">Download Research Proposal</span>
+                                    <i class="fas fa-file-download"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2023</span></div>
+                    </div>
+            </section>
+            <hr class="m-0" />       
+            <!-- Education-->
+            <!-- Master's Degree-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Seoul National University, Master’s in Business Administration</h3>
+                            <div class="subheading mb-3">Expected Graduation: February 2025 (Overall GPA: 4.00/4.00)</div>
+                            
+                            <!-- Seminar Courses -->
+                            <h4 class="mt-3">Seminars:</h4>
+                            <ul>
+                                <li>Accounting Modeling and Analysis (A+)</li>
+                                <li>Contemporary Issues in Accounting (A0)</li>
+                                <li>Seminar in Advanced Accounting (A+)</li>
+                                <li>Studies in Managerial Accounting (A+)</li>
+                                <li>Studies in Tax Accounting (A+)</li>
+                                <li>Studies in Financial Accounting Theory (A+)</li>
+                            </ul>
+            
+                            <!-- Economic & Math courses -->
+                            <h4 class="mt-3">Economics and math courses:</h4>
+                            <ul>
+                                <li>Studies in Econometrics (A+)</li>
+                                <li>Mathematics for Economics (A0)</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Start Date: March 2023</span></div>
+                    </div>
+            <!-- Undergraduate Degree-->
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Sungkyunkwan University, Bachelor’s in Business Administration</h3>
+                    <div class="subheading mb-3">Major in GPA: 4.25/4.50 / Overall GPA: 4.08/4.50</div>
+                    <!-- Relevant Courses -->  
+                    <h4 class="mt-3">Accounting Courses:</h4>
+                    <ul>
+                        <li>Financial Accounting</li>
+                        <li>Corporate Finance</li>
+                        <li>Marketing Management</li>
+                        <li>Operations Management</li>
+                    </ul> 
+
+                    <h4 class="mt-3">Statistics and Economics Courses:</h4>
+                    <ul>
+                        <li>Statistics (A+)</li>
+                        <li>Elementary Business Statistics (A+)</li>
+                        <li>Problem Solving and Algorithm (A+)</li>
+                        <li>Principles of Economics I (Microeconomics) (B+)</li>
+                    </ul>
                 </div>
-                <!-- Accounting Modeling and Analysis -->
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1
+                <div class="flex-shrink-0"><span class="text-primary">2018 - 2023</span></div>
+            </div>
+             <!-- Exchange student-->
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+            <h3 class="mb-0">IESEG School of Management, Exchange Student</h3>
+            </div>
+         <div class="flex-shrink-0"><span class="text-primary">Summer 2022</span></div>
+        </div>
+
+            </section>            
+            <hr class="m-0" />
+            <!-- Experience -->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    
+                            <!-- Research Assistant Experience 1 -->
+                            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">Research Assistant</h3>
+                                    <div class="subheading mb-3">Seoul National University, Seoul, Korea</div>
+                                    <ul>
+                                        <li>Data collection project for a working paper investigating the relationship between the indictment of Chaebol firms (large conglomerates) and voluntary disclosure; using Korean firms' financial datasets, data collection of Korean firms' voluntary disclosure, and data collection of the indictment of Chaebol firms' chairmen.</li>
+                                        <li>Conducted data research for reports on Korean firms’ ESG practices and the use of the concept of double materiality assessment, submitted to the Korea Legislation Research Institute (KLRI).</li>
+                                    </ul>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2023 - 2024</span></div>
+                            </div>
+                    
+                            <!-- Research Assistant Experience 2 -->
+                            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">Research Assistant</h3>
+                                    <div class="subheading mb-3">Kim & Chang Law Firm, Seoul, Korea</div>
+                                    <ul>
+                                        <li>Contributed to the preparation of ESG reports for the company CJ and Samsung Medical Center; collected data on CJ subsidiaries' environmental information (e.g., CO2 emissions, waste management) and wrote parts of Samsung Medical Center's first ESG report.</li>
+                                        <li>Assisted with consulting projects related to ESG initiatives.</li>
+                                        <li>Analyzed GRI standards for the reports and translated GRI standards into Korean.</li>
+                                    </ul>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">January 2023 - February 2023</span></div>
+                            </div>
+                    
+                            <!-- Undergraduate Research Intern -->
+                            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">Undergraduate Research Intern</h3>
+                                    <div class="subheading mb-3">Sungkyunkwan University, Seoul, Korea</div>
+                                    <ul>
+                                        <li>Participated in a project to create a database for Korean firms’ ESG committees and DB pension funds to investigate the relationship between ESG commitment and corporate pension policy, advised by Prof. Jong Eun Lee.</li>
+                                        <li>Performed data-cleaning of Korean firms’ financial databases as requested by professors and PhD students.</li>
+                                        <li>Awarded a scholarship from the Business School Fund for research work.</li>
+                                    </ul>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">November 2022 - 2023 </span></div>
+                            </div>
+                    
+            </section>
+            <hr class="m-0" />
+            <!-- Skills -->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <h3>Programming Languages:</h3>
+                    <p>C#, Java, Python, TypeScript, SQL</p>
+                    <h3>Frameworks and Libraries:</h3>
+                    <p>Tensorflow, Spring Boot, React-Redux, Django</p>
+                    <h3>Tools:</h3>
+                    <p>Unity, Git, LaTeX, Docker, Amazon Web Services, Google Cloud Platform, MySQL, Jenkins</p>
+                </div>
+            </section>
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Highlighted Projects</h2>
+                    
+                    <!-- AWESOMEPIECE Projects -->
+                    <h3 class="project-category-title">AWESOMEPIECE Projects</h3>
+
+                    <!-- Zombie High School Project -->
+                    <div class="project mb-4">
+                        <img src="assets/img/zombiehighschool.webp" alt="zh" class="project-image">
+                        <div class="description">
+                            <h3 class="mb-0">Zombie High School</h3>
+                            <p>Developed "Zombie High School," a 2D multiplayer action game, achieving over 10M+ downloads. Used Unity and Java Netty, introducing features like reconnect functionality for ranked games, dynamic controllers, and ride functions. Collaborated with the QA and graphics teams to facilitate balance adjustments and graphic tests, and addressed challenges in a multi-threaded live server, including deadlocks and other exceptions, all contributing to enhanced UX.</p>
+                            <div class="project-links">
+                                <a href="https://play.google.com/store/apps/details?id=net.kernys.aooni&hl=en_US" target="_blank">
+                                    <i class="fab fa-google-play"></i> Play Store
+                                </a>
+                                <br>
+                                <a href="https://apps.apple.com/kr/app/좀비-고등학교/id898986747" target="_blank">
+                                    <i class="fab fa-app-store-ios"></i> App Store
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- King God Castle Project -->
+                    <div class="project mb-4">
+                        <img src="assets/img/kinggodcastle.webp" alt="kgc" class="project-image">
+                        <div class="description">
+                            <h3 class="mb-0">King God Castle</h3>
+                            <p>Developed "King God Castle," an Auto Chess game, reaching 1M+ downloads. Introduced dynamic language-changing Unity UI elements to support global service, fixed in-game bugs, and ensured smooth Unity Animations. Led the development team, expanding the game to over 20 countries, utilized Google Firebase for extensive logging, and conducted in-game balance checks.</p>
+                            <div class="project-links">
+                                <a href="https://play.google.com/store/apps/details?id=com.awesomepiece.castle&hl=en_US" target="_blank">
+                                    <i class="fab fa-google-play"></i> Play Store
+                                </a>
+                                <br>
+                                <a href="https://apps.apple.com/kr/app/king-god-castle/id1526791430?l=en-GB" target="_blank">
+                                    <i class="fab fa-app-store-ios"></i> App Store
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Seoul National University Projects -->
+                    <h3 class="project-category-title">Seoul National University Projects</h3>
+
+                    <!-- Story Adventurer Project -->
+                    <div class="project mb-4">
+                        <img src="assets/img/hci_project.png" alt="hci_project" class="project-image">
+                        <div class="description">
+                            <h3 class="mb-0">Story Adventurer</h3>
+                            <p>Developed an automated fairy tale generator for the Introduction to HCI class. The project allows story creation with selectable branches and offers an option to download stories as PDF. Experienced the full phase of a typical HCI study, including basic user study.</p>
+                        </div>
+                    </div>
+
+                    <!-- Non-linear Image Processor with LG Innotek Project -->
+                    <div class="project mb-4">
+                        <div class="image-container">
+                            <img src="assets/img/innotek_1.jpg" alt="innotek_1" class="project-image">
+                        </div>
+                        <div class="description">
+                            <h3 class="mb-0">Non-linear Image Processor with LG Innotek</h3>
+                            <p>Engineered a PCB board defect detection module for LG Innotek. The project received recognition for algorithm optimization that surpassed field efficiency and was presented to the head of the semiconductor department.</p>
+                        </div>
+                    </div>
+
+                    <!-- BridgeUS Project -->
+                    <div class="project mb-4">
+                        <img src="assets/img/bridgeus.png" alt="bridgeus" class="project-image">
+                        <div class="description">
+                            <h3 class="mb-0">BridgeUS</h3>
+                            <p>Contributed to a K-pop clothing e-commerce platform using TypeScript (Frontend), Python (Backend), React-Redux, Django, MySQL, and Amazon Web Services. Primarily acted as a backend developer, implementing a machine learning-based recommendation algorithm. View the project on <a href="https://github.com/swsnu/swppfall2022-team16" target="_blank">GitHub</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards</h2>
+                    <div class="awards-section">
+                    
+                        <!-- Seoul National University Academic Excellence Scholarship -->
+                        <div class="award-item mb-4">
+                            <h3 class="award-title">Seoul National University Academic Excellence Scholarship</h3>
+                            <span class="award-date">2017 - 2023</span>
+                            <p class="award-description">Awarded for high academic performance and consistent excellence in studies.</p>
+                        </div>
+                    
+                        <!-- Writing Competition Awards -->
+                        <div class="award-item mb-4">
+                            <h3 class="award-title">Writing Competition - Military Manpower Administration for Industrial Technical Personnel</h3>
+                            <span class="award-date">2021 - 2022</span>
+                            <p class="award-description">Received the <strong>Excellence Award</strong> in 2022 and the <strong>Encouragement Award</strong> in 2021 for outstanding contributions and writings.</p>
+                        </div>
+                    
+                    </div>                    
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
